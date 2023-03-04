@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://player.cs" type="Script" id=1]
+[ext_resource path="res://player_ball.png" type="Texture" id=2]
+
+[sub_resource type="CircleShape2D" id=1]
+radius = 13.0
+
+[node name="KinematicBody2D" type="KinematicBody2D"]
+script = ExtResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]
+polygon = PoolVector2Array( 52, -55, 61, -47, 70, -35, 77, -20, 81, 1, 81, 18, 74, 34, 62, 49, 50, 57, 44, 48, 57, 38, 66, 26, 71, 14, 72, 1, 66, -16, 61, -29, 53, -39, 46, -48 )
+
+[node name="Position2D" type="Position2D" parent="."]
+
+[node name="PlayerBall" type="Sprite" parent="Position2D"]
+scale = Vector2( 0.1, 0.1 )
+texture = ExtResource( 2 )
+
+[node name="Line2D" type="Line2D" parent="Position2D"]
+points = PoolVector2Array( 49, -50, 60, -39, 68, -27, 73, -12, 75, 3, 74, 19, 69, 30, 61, 42, 49, 52 )
+width = 5.0
+default_color = Color( 1, 1, 1, 1 )
+begin_cap_mode = 2
+end_cap_mode = 2

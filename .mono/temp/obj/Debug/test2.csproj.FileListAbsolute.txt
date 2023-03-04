@@ -1,0 +1,9 @@
+D:\godot_project\test2\.mono\temp\bin\Debug\test2.dll
+D:\godot_project\test2\.mono\temp\bin\Debug\test2.pdb
+D:\godot_project\test2\.mono\temp\obj\Debug\test2.csproj.AssemblyReference.cache
+D:\godot_project\test2\.mono\temp\obj\Debug\test2.GeneratedMSBuildEditorConfig.editorconfig
+D:\godot_project\test2\.mono\temp\obj\Debug\test2.AssemblyInfoInputs.cache
+D:\godot_project\test2\.mono\temp\obj\Debug\test2.AssemblyInfo.cs
+D:\godot_project\test2\.mono\temp\obj\Debug\test2.csproj.CoreCompileInputs.cache
+D:\godot_project\test2\.mono\temp\obj\Debug\test2.dll
+D:\godot_project\test2\.mono\temp\obj\Debug\test2.pdb
